@@ -15,7 +15,7 @@ This website include an introduction of me, and also some data analyse that I am
 
 
 
-# Academic and profetional experience
+# Academic Experience
 
 [About me](about.html)
 
