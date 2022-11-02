@@ -1,0 +1,80 @@
+---
+title: "My Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    self_contained: no
+---
+
+**Zhenyu Zhou**
+
+----------------------------------------------
+
+### Education 
+
+**Columbia University**
+
+M.S. in Biostatistics, Data Science track
+
+New York, NY
+
+Sep. 2022-Present
+
+**University of Pennsylvania**                                                     
+Master of Computer and Information Technology
+
+Philadelphia, PA
+
+2022
+
+**University of Miami**                                                     
+B.B.A in Finance
+
+Coral Gables, FL
+
+2020
+
+---------------------------------------------------
+
+### Projects
+
+**Shredder: A Shell Processor Supporting Fusion of Complex Instructions | C, Kernel**      
+
+- Read user input and execute it as a new process
+
+- Supported command redirection and a 2-stage pipeline
+
+- The program was user-friendly, fault-tolerant, and reusable, formatting for special input including spaces and
+allowing reuse after the current command ends.
+
+**Automated Intelligent Manufacturing Monitoring Web Platform | JavaWeb, Big Data**        
+
+- Implemented through Java Web based on big data technology. 
+
+- Built a data flow link to complete real-time ETL development of business data.
+
+- Completed the development of real-time query module based on data warehouse and real-time OLAP analysis.
+
+- Built the website server by using MyBatis, Spring, Ajax, Redis, and other technologies and implemented the front-end
+page through React.
+
+**Video Face Swapping Tool Based on OpenCV | Python, OpenCV, dlib**   
+
+- Used dlib to get the face position detector and detected features of faces in two video respectively.
+
+- Used the face 64 feature point dataset to detect keypoints on the features, and triangulate faces and determine which
+part of the faces to swap.
+
+- Warped the appropriate face to replace with other faces, then blended position of Face 1 into the position of Face 2.
+
+
+--------------------------------------------------------------------------------
+
+### Skills
+
+Programming Languages: Python, Java, C, C++, SQL, JavaScript, HTML, CSS
+
+Technology Tools: MySQL, TensorFlow, Pytorch, OpenCV, Colab, OpenAI.
+
+Developer Platforms: Shell, Git, GitHub, PyCharm, IntelliJ Idea, CLion, WebStorm, Eclipse, Notebook.

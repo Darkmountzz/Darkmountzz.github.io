@@ -11,7 +11,7 @@
 
 
 
-<title>My awesome website</title>
+<title>My Resume</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -33,7 +33,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
@@ -229,9 +228,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -362,34 +358,76 @@ div.tocify {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+
+
+<h1 class="title toc-ignore">My Resume</h1>
+
+</div>
+
+
+<p><strong>Zhenyu Zhou</strong></p>
+<hr />
+<div id="education" class="section level3">
+<h3>Education</h3>
+<p><strong>Columbia University</strong></p>
+<p>M.S. in Biostatistics, Data Science track</p>
+<p>New York, NY</p>
+<p>Sep. 2022-Present</p>
+<p><strong>University of Pennsylvania</strong><br />
+Master of Computer and Information Technology</p>
+<p>Philadelphia, PA</p>
+<p>2022</p>
+<p><strong>University of Miami</strong><br />
+B.B.A in Finance</p>
+<p>Coral Gables, FL</p>
+<p>2020</p>
+<hr />
+</div>
+<div id="projects" class="section level3">
+<h3>Projects</h3>
+<p><strong>Shredder: A Shell Processor Supporting Fusion of Complex
+Instructions | C, Kernel</strong></p>
+<ul>
+<li><p>Read user input and execute it as a new process</p></li>
+<li><p>Supported command redirection and a 2-stage pipeline</p></li>
+<li><p>The program was user-friendly, fault-tolerant, and reusable,
+formatting for special input including spaces and allowing reuse after
+the current command ends.</p></li>
 </ul>
+<p><strong>Automated Intelligent Manufacturing Monitoring Web Platform |
+JavaWeb, Big Data</strong></p>
+<ul>
+<li><p>Implemented through Java Web based on big data
+technology.</p></li>
+<li><p>Built a data flow link to complete real-time ETL development of
+business data.</p></li>
+<li><p>Completed the development of real-time query module based on data
+warehouse and real-time OLAP analysis.</p></li>
+<li><p>Built the website server by using MyBatis, Spring, Ajax, Redis,
+and other technologies and implemented the front-end page through
+React.</p></li>
+</ul>
+<p><strong>Video Face Swapping Tool Based on OpenCV | Python, OpenCV,
+dlib</strong></p>
+<ul>
+<li><p>Used dlib to get the face position detector and detected features
+of faces in two video respectively.</p></li>
+<li><p>Used the face 64 feature point dataset to detect keypoints on the
+features, and triangulate faces and determine which part of the faces to
+swap.</p></li>
+<li><p>Warped the appropriate face to replace with other faces, then
+blended position of Face 1 into the position of Face 2.</p></li>
+</ul>
+<hr />
 </div>
-
-
-
-<h1 class="title toc-ignore">My awesome website</h1>
-
-</div>
-
-
-<p>This website include an introduction of me, and also some data
-analyse that I am interested. I want you share them with you. You can
-click the links and buttomes in the website to learn more.</p>
-<p><img
-src="https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif" /></p>
-<div id="academic-and-profetional-experience" class="section level1">
-<h1>Academic and profetional experience</h1>
-<p><a href="about.html">About me</a></p>
-</div>
-<div id="undergraduate-school" class="section level1">
-<h1>Undergraduate School</h1>
-<p>My undergraduate school is a wonderful place, and its mascot is
-Ram.</p>
+<div id="skills" class="section level3">
+<h3>Skills</h3>
+<p>Programming Languages: Python, Java, C, C++, SQL, JavaScript, HTML,
+CSS</p>
+<p>Technology Tools: MySQL, TensorFlow, Pytorch, OpenCV, Colab,
+OpenAI.</p>
+<p>Developer Platforms: Shell, Git, GitHub, PyCharm, IntelliJ Idea,
+CLion, WebStorm, Eclipse, Notebook.</p>
 </div>
 
 
@@ -427,11 +465,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 <script>
 $(document).ready(function ()  {
