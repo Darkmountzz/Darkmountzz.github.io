@@ -21,7 +21,7 @@ data("instacart")
 
 # find out 10 most popular vegetables for later analyze
 fresh_vege = instacart %>% 
-  filter(aisle == "fresh vegetables") %>% 
+  filter(aisle == "fresh fruits") %>% 
   count(product_name) %>% 
   filter(n>2500) %>% 
   arrange(desc(n)) %>% 
@@ -37,7 +37,7 @@ Column {data-width=650}
 ```{r}
 instacart %>% 
   count(aisle) %>% 
-  filter(n > 10000) %>% 
+  filter(n > 5000) %>% 
   mutate(aisle = factor(aisle),
          aisle = fct_reorder(aisle, n)) %>% 
   plot_ly(
@@ -46,7 +46,7 @@ instacart %>%
   layout(
     xaxis = list(title = FALSE),
     yaxis = list(title = "Count"),
-    title = "Aisles with more than 10000 items ordered"
+    title = "Aisles with more than 5000 items ordered"
   )
 
 
