@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Personal Website"
 output: 
   html_document:
     toc: true
@@ -8,19 +8,25 @@ output:
     self_contained: no
 ---
 
-This website include an introduction of me, and also some data analyse that I am  interested. I want you share them with you. You can click the links and buttomes in the website to learn more.
+My name is Zhenyu Zhou. I am currently a first-year MS Biostatistics student at Columbia University’s Mailman School of Public Health. This website include an introduction of me, and also some data analyse that I am  interested. You can see my resume, plotly examples and dashboard here.
+
 
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 
 
-# Academic Experience
+# My Resume
 
 [About me](about.html)
 
-# Undergraduate School
-My undergraduate school is a wonderful place, and its mascot is Ram.
+# Plotly Examples
+[Plotly Examples](plotly.html)
+
+# Dashboard
+[Dashboard](dashboard.html)
+
+<img src="images/cat.jpeg" style="width:65%">
 
 
 
