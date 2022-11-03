@@ -68,9 +68,8 @@ instacart %>%
     x = ~order_hour_of_day, y = ~product_name, color = ~product_name, 
     type = "box", colors = "viridis") %>%
   layout(
-    xaxis = list(title = FALSE),
-    yaxis = list(title = "Order Hours"),
+    xaxis = list(title = "Order Hours"),
+    yaxis = list(title = FALSE),
     title = "Distribution of 8 most popular fruits")
 ```
-
 
