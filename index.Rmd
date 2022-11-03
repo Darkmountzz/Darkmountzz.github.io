@@ -26,7 +26,7 @@ My name is Zhenyu Zhou. I am currently a first-year MS Biostatistics student at 
 # Dashboard
 [Dashboard](dashboard.html)
 
-<img src="images/cat.jpeg" style="width:65%">
+<img src="picture/cat.jpeg" style="width:65%">
 
 
 

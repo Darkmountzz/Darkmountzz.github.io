@@ -62,7 +62,7 @@ instacart %>%
   layout(
     xaxis = list(title = FALSE),
     yaxis = list(title = "Order-hour of the day"),
-    title = "Order hour distribution of 8 most popular vegetables")
+    title = "Order hour distribution of 8 most popular fruits")
 ```
 
 ## pie plot
